@@ -4,15 +4,15 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #eef2f5;
-    color: #333;
+    background-color: #232628;
+    color: #dfdfdf;
     line-height: 1.6;
 }
 
 header {
     text-align: center;
     padding: 40px 20px;
-    background: linear-gradient(5deg, #a4bcd2, #775ab2);
+    background: linear-gradient(5deg, #a4bcd2, #3e3552);
     color: white;
 }
 
@@ -38,16 +38,16 @@ header img {
 
 section {
     padding: 20px;
-    background-color: white;
+    background-color: #121212;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    color: #9b86c9;
+    color: #8576b6;
     margin-bottom: 20px;
     font-weight: 600;
-    border-bottom: 2px solid #eef2f5;
+    border-bottom: 2px solid #4a4c4d;
     padding-bottom: 10px;
 }
 
@@ -64,28 +64,30 @@ form {
 form label {
     margin-top: 10px;
     font-weight: 600;
-    color: #333;
+    color: #dfdfdf;
 }
 
 form input, form textarea {
     padding: 12px;
     margin-top: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #4a4c4d;
     border-radius: 6px;
     font-size: 16px;
     transition: border-color 0.3s ease;
+    background-color: #121212;
+    color: #dfdfdf;
 }
 
 form input:focus, form textarea:focus {
-    border-color: #969598;
+    border-color: #4a4c4d;
     outline: none;
 }
 
 form button {
     margin-top: 20px;
     padding: 12px;
-    background-color: #969598;
-    color: white;
+    background-color: #4a4c4d;
+    color: #dfdfdf;
     border: none;
     border-radius: 6px;
     font-size: 16px;
@@ -94,7 +96,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #9b86c9;
+    background-color: #3e3552;
     transform: translateY(-2px);
 }
 
